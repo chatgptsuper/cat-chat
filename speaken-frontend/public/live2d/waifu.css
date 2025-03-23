@@ -1,0 +1,48 @@
+.live2d-container {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 280px;
+    height: 250px;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+#waifu {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#waifu-tips {
+    opacity: 0;
+    width: 250px;
+    min-height: 70px;
+    margin: 20px 20px;
+    padding: 5px 10px;
+    border: 1px solid rgba(224, 186, 140, 0.62);
+    border-radius: 12px;
+    background-color: rgba(236, 217, 188, 0.5);
+    box-shadow: 0 3px 15px 2px rgba(191, 158, 118, 0.2);
+    font-size: 14px;
+    line-height: 24px;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    animation: shake 50s ease-in-out 5s infinite;
+    transition: opacity 1s;
+    pointer-events: none;
+    z-index: 1001;
+}
+
+#live2d {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: auto;
+} 
