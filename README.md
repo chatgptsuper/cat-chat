@@ -36,7 +36,7 @@
 ### 安装步骤
 
 1. 克隆仓库
-git clone <repository-url>
+git clone https://github.com/chatgptsuper/cat-chat.git
 cd cat-chat
 
 2. 安装前端依赖
@@ -50,6 +50,7 @@ cd ../speaken-backend
 npm install
 
 4. 配置环境变量
+在speaken-backend目录下新建.env文件，并添加以下配置：
 
 PORT=5000
 NODE_ENV=development
@@ -77,23 +78,6 @@ npm run dev
 后端开发服务器：
 cd speaken-backend
 npm run dev
-
-项目结构
-
-cat-chat/
-├── speaken-frontend/        # 前端项目
-│   ├── src/
-│   │   ├── components/     # 组件
-│   │   ├── stores/        # Pinia 状态管理
-│   │   ├── views/         # 页面
-│   │   └── ...
-│   └── public/
-│       └── live2d/        # Live2D 模型资源
-└── speaken-backend/        # 后端项目
-    └── src/
-        ├── controllers/   # 控制器
-        ├── services/      # 服务层
-        └── types/        # 类型定义
 
 ## 使用说明
 1. 切换猫咪：点击"切换性别"按钮可以在黑猫和白猫之间切换
