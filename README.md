@@ -36,7 +36,6 @@
 ### 安装步骤
 
 1. 克隆仓库
-```bash
 git clone <repository-url>
 cd cat-chat
 
