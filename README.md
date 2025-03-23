@@ -41,18 +41,27 @@ git clone <repository-url>
 cd cat-chat
 
 2. 安装前端依赖
+<<<<<<< HEAD
 ```bash
+=======
+>>>>>>> 2a55676 (first commit)
 cd speaken-frontend
 npm install
 
 3. 安装后端依赖
+<<<<<<< HEAD
 ```bash
+=======
+>>>>>>> 2a55676 (first commit)
 cd ../speaken-backend
 npm install
 
 4. 配置环境变量
+<<<<<<< HEAD
 ```bash
 
+=======
+>>>>>>> 2a55676 (first commit)
 PORT=5000
 NODE_ENV=development
 
